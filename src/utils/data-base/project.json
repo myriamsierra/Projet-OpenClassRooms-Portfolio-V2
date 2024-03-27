@@ -1,0 +1,204 @@
+[
+    {
+        "id":"01",
+        "number":"01",
+        "title": "PORTFOLIO",
+        "subtitle": "/ Projet OpenClassRooms",
+        "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
+        "description": "Pour cloturer ma formation, j'ai due réaliser mon propre portfolio pour me presenter et presenter mes projets.J'ai eue une entière liberté pour le choix du design, des technologies et langages.",
+        "image": "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/portfolio/portfolio-01.webp",
+        "tag": ["Tous", "React"],
+        "text":[
+            "Dans le cadre de ma formation en développement web, j'ai entrepris la création et la publication en ligne de mon propre portfolio.",
+            "L'enjeu premier pour moi à été de concevoir en design et de réaliser une maquette en uitilsant FIGMA",
+            "Ensuite avec REACT, j'ai produit l'integration de cette maquette, en respectant les règles du CLEAN-CODE, pour ainsi facilité les maintenances futures",
+            "Puis l'étape finale à été d'optimiser le SEO de ce portfolio pour augmenter sa portée, et de le deployer en ligne"
+        ],
+        "skills":[
+            "Organisation et découpage du projet avec NOTION.",
+            "Réaliser une veille technologique.",
+            "Création d'une maquette FIGMA et WIREFRAME.",
+            "Integration avec REACT et sa librairie REACT ROUTER.",
+            "Deploiement avec NETFLIFY"
+        ],
+        "techno": ["Sass", "React","Figma","Seo","React Router","Clean Code"],
+        "links": [
+            { "text": "Voir sur Github", "link": "https://github.com/myriamsierra/portfoliov2","icon":"fa-brands fa-github"}
+        ],
+        "pictures":[
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/portfolio/portfolio-02.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/portfolio/portfolio-03.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/portfolio/portfolio-04.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/portfolio/portfolio-05.webp"
+        ]
+    },
+    {
+        "id":"02",
+        "number":"02",
+        "title": "KASA",
+        "subtitle": "/ Projet OpenClassRooms",
+        "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
+        "description": "La mission de ce projet à été d'intégrer la maquette d'un site de location immobilière.J'ai donc due faire mes premier pas avec REACT ET SASS pour concevoir le front-end du site",
+        "image": "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/kasa/kasa-02.webp",
+        "tag": ["Tous", "React"],
+        "text":[
+            "L'agence de location immobilière KASA nous à mandater pour réaliser le front-end de son site",
+            "A partir d'une maquette FIGMA réaliser par l'agence, j'ai réaliser l'intégration en utilisant REACT et SASS",
+            "L'enjeu de ce projet à été dans un premier temps de decouvrir ces deux outils, puis d'apprendre a construire des composants réutilisable, clair et fonctionnel, afin de facilité les maintenances futures"
+        ],
+        "techno": ["Sass", "React","React Router","Create React App"],
+        "skills":[
+            "Organisation et WIREFRAME du projet",
+            "Initialiser une application REACT avec CREATE REACT APP",
+            "Apprendre la logique des PROPS et HOOKS",
+            "Installer une logique de SINGLE PAGE APPLICATION avec REACT ROUTER",
+            "Creer le style du front end avec SASS"
+        ],
+        "links": [
+            { "text": "Voir le site", "icon": "fa-solid fa-plus", "link": "https://projet-open-class-rooms-kasa.vercel.app/"},
+            { "text": "Voir sur Github", "icon":"fa-brands fa-github", "link": "https://github.com/myriamsierra/Kasa-P6-OPCR"}
+        ],
+        "pictures":[
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/kasa/kasa-02.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/kasa/kasa-03.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/kasa/kasa-04.webp"  
+        ]
+    },
+    {
+        "id":"03",
+        "number":"03",
+        "title": "MON VIEUX GRIMOIRE",
+        "subtitle": "/ Projet OpenClassRooms",
+        "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
+        "description": "Pour ce projet, j'ai due me mettre dans la peau d'une developpeuse Back-end, pour creer à partir de documentation specifique et technique fournis par mon agence, le back-end",
+        "image": "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/mon-vieux-grimoire/mvg-01.webp",
+        "tag": ["Tous", "Backend"],
+        "text":[
+            "L'enjeu de ce projet à été dans un premier temps, d'apprendre les bases du fonctionnement d'un serveur back-end, puis de le mettre en place en utilisant EXPRESS.Ensuite j'ai du creer une base de donnée sur MONGO DB et la faire communiquer avec mon serveur.",
+            "J'ai mis en place une architecture MVC (modele-vue-controller) pour implementer mes opération CRUD (create-read-update-delete)",
+            "J'ai due aussi creer un systeme d'authentification sécurisé, et optimiser le telechargement de mes images en respectant les regles du GREEN CODE"
+        ],
+        "skills":[
+            "Creer un serveur avec EXPRESS",
+            "Creer une base de donnée distante",
+            "Implementer les operations CRUD",
+            "Respecter les règles du GREEN CODE",
+            "Traitement des images avec SHARP et MULTER",
+            "Sécuriser un serveur avec des variables environnements"
+        ],
+        "techno": ["Express", "MongoDB","Green Code","NodeJS","Securité"],
+        "links": [
+            { "text": "Voir sur Github", "icon":"fa-brands fa-github", "link": "https://github.com/myriamsierra/finalP7"}
+        ],
+        "pictures":[
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/mon-vieux-grimoire/mvg-02.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/mon-vieux-grimoire/mvg-03.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/mon-vieux-grimoire/mvg-04.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/mon-vieux-grimoire/mvg-05.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/mon-vieux-grimoire/mvg-06.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/mon-vieux-grimoire/mvg-07.webp"
+        ]
+    },
+    {
+        "id":"04",
+        "number":"04",
+        "title": "BOOKI",
+        "subtitle": "/ Projet OpenClassRooms",
+        "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
+        "description": "Ce projet est le premier projet de ma formation.J'ai été mandatée par une agence de voyage pour integrer la maquette de leur site.Pour ce faire je dois utiliser les langages HTML et CSS",
+        "image": "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/booki/booki-01.webp",
+        "tag": ["Tous", "Landing page"],
+        "text":[
+            "Pour ce projet, j'ai due faire mes premier pas dans le monde du devellopement web",
+            "Tout d'abord apprendre à decouper une maquette, installer un editeur de code, et commencer mes premieres ligne de code en utilisant HTML et CSS",
+            "L'enjeu à été de respecter les normes de semantiques HTML, et de structurer le style de mon code avec du CSS, Puis de m'assurer que le site s'adapte a toutes les tailles d'ecrans, que ce soit mobile, tablette ou ordinateur",
+            "Et pour finir j'ai appris a utiliser GITHUB pour versionner mon projet"
+        ],
+        "skills":[
+            "Decoupage d'une maquette FIGMA et WIREFRAME.",
+            "Apprendre la semantique HTML",
+            "Concevoir un site RESPONSIVE",
+            "Versionner mon projet grâce a GITHUB",
+            "Valider mon site avec W3C"
+            
+        ],
+        "techno": ["HTML", "CSS","Responsive"],
+        "links": [
+            { "text": "Voir le site","link": "https://myriamsierra.github.io/Projet-OpenclassRooms-Booki/?search=#","icon": "fa-solid fa-plus"},
+            { "text": "Voir sur Github","link": "https://github.com/myriamsierra/Booki-P2","icon":"fa-brands fa-github"}
+        ],
+        "pictures":[
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/booki/booki-01.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/booki/booki-02.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/booki/booki-03.webp" 
+        ]
+    },
+    {
+        "id":"05",
+        "number":"05",
+        "title": "NINA CARDUCCI",
+        "subtitle": "/ Projet OpenClassRooms",
+        "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
+        "description": "Dans ce projet, j'ai travaillé sur l'optimisation d'un site web pour une photographe. Mon objectif est de débugger les problèmes de chargement et d'optimiser le référencement (SEO) du site, en utilisant des outils comme Lighthouse ou Wave.",
+        "image": "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/nina-carducci/nc-01.webp",
+        "tag": ["Tous", "Seo","Javascript"],
+        "text":[
+            "Dans ce projet, j'ai travaillé sur l'optimisation du référencement d'un site en améliorant sa performance et son accessibilité. J'ai commencé par identifier les problèmes de chargement et de référencement en utilisant des outils tels que Lighthouse et Wave pour évaluer les performances actuelles du site. Ensuite, j'ai proposé des recommandations pour améliorer la vitesse de chargement, la structure du code et le référencement, que j'ai appliquées en modifiant le code du site.",
+            "L'optimisation du référencement (SEO) et de l'accessibilité sont des compétences cruciales dans le développement web moderne. En réalisant ce projet, j'ai renforcé mes compétences en analyse et en amélioration des performances d'un site, ce qui contribuera directement à l'expérience utilisateur et à la satisfaction des clients. En fournissant un rapport illustrant les résultats avant et après les modifications, j'ai démontré l'impact positif de mon travail sur le référencement et l'accessibilité du site."
+        ],
+        "skills":[
+            "Faire un AUDIT pour mesurer les performances et le SEO",
+            "Manipuler des métadonnées",
+            "Optimiser le chargement des images",
+            "Respecter les normes d'accesibilité et d'inclusivité",
+            "Utiliser des outils et méthode de debugage"
+        ],
+        "techno": ["Lighthouse"," Seo","Debug","google rich snipet","green code"],
+        "links": [
+            { "text": "Voir le site","icon": "fa-solid fa-plus", "link": "https://projet-open-class-rooms-nina-carducci.vercel.app/"},
+            { "text": "Voir sur Github", "icon":"fa-brands fa-github", "link": "https://github.com/myriamsierra/Nina-Carducci-p5"}
+        ],
+        "pictures":[
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/nina-carducci/nc-02.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/nina-carducci/nc-03.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/nina-carducci/nc-04.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/nina-carducci/nc-05.webp"
+        ]
+    },
+    {
+        "id":"06",
+        "number":"06",
+        "title": "JAVASCRIPT",
+        "subtitle": "/ Projet Entrainement Personnel",
+        "subtext" :"Project personnel réalisé à partir de tutoriel ",
+        "description": "Voici quatres projets, réaliser dans mes heures perdus.Le but etant de m'entrainer sur du Javascript, que ca soit a manipuler le dom, faire appel a des API,creer des objects ect ect ",
+        "image": "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/exercice-javascript/java-01.webp",
+        "tag": ["Tous","Javascript"],
+        "text":[
+            "Plant-Carrousel : Exercice d'entrainement Javascript réaliser a partir de tutoriel, ce projet fait partie des premiers exercice d'entrainement que j'ai pu réaliser, j'ai réaliser un carousel uniquement avec javascript",
+            "Ask Meteo : Exercice d'entrainement Javascript réaliser a partir de tutoriel, ce projet consiste a récuprer des données d'une api disntante de meteo",
+            "To-Do-List :Exercice d'entrainement Javascript réaliser a partir de tutoriel,ce projet fait partie des premiers exercice d'entrainement que j'ai pu réaliser",
+            "Guess-The-Number :Exercice d'entrainement Javascript réaliser a partir de tutoriel,ce projet fait partie des premiers exercice d'entrainement que j'ai pu réaliser"
+        ],
+        "skills":[
+            "Organisation et découpage du projet avec NOTION.",
+            "Réaliser une veille technologique.",
+            "Création d'une maquette FIGMA et WIREFRAME.",
+            "Integration avec REACT et sa librairie REACT ROUTER.",
+            "Deploiement avec NETFLIFY"
+        ],
+        "techno": ["Api","javascript","html","css"],
+        "links": [
+            { "text": "Plant-carrousel", "link": "https://exercice-javascript-carousel-plants.vercel.app/"},
+            { "text": "Ask-metéo", "link": "https://myriamsierra.github.io/EXERCICE-JAVASCRIPT--METEO/"},
+            { "text": "To-Do-List", "link": "https://exercice-javascript-to-do-list.vercel.app/"},
+            { "text": "Guess-The-Number", "link": "https://exercice-javascript-guess-the-number.vercel.app/"}
+        ],
+        "pictures":[
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/exercice-javascript/java-01.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/exercice-javascript/java-02.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/exercice-javascript/java-03.webp",
+            "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/exercice-javascript/java-04.webp"
+        ]
+    }
+]

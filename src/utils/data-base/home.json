@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Myriam Sierra",
+        "subtitle":"Développeuse frontend junior",
+        "text": "Hello et bienvenue sur mon portfolio ! ",
+        "text3":"Je suis actuellement à la recherche de nouvelles opportunités, que ce soit pour un stage, un poste de junior ou même une future alternance en design UX/UI, ou pour tout autres projets collaboratifs.",
+        "text4":"Explorez mon portfolio pour découvrir mes projets et n'hésitez pas à me contacter pour discuter de vos idées .",
+        "symbol1": "<",
+        "symbol2":">",
+        "image":"https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/illustration/computer.webp",
+        "links": 
+            [
+                {
+                    "text": "Me contacter ici",
+                    "icon": "fa-solid fa-plus"
+                },
+                {
+                    "text": "Ou par email",
+                    "icon": "fa-solid fa-paper-plane",
+                    "link": "mailto:myriamsierra84@gmail.com"
+                }
+            ]
+    }
+]

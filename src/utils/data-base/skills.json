@@ -1,0 +1,25 @@
+[
+    {
+        "title":"Mes compétences",
+        "symbol1":"{",
+        "symbol2":"}",
+        "image":"https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/illustration/gear.webp",
+        "cards": [
+            {
+                "titleRecto": "FRONT-END",
+                "textRecto": "fa-solid fa-code",
+                "textVerso": ["HTML", "CSS/SCSS", "JavaScript", "React", "SEO"] 
+            },
+            {
+                "titleRecto": "DESIGN",
+                "textRecto": "fa-solid fa-brush",
+                "textVerso": ["Photoshop", "Figma", "UX/UI Design", "Illustration", "Photographie"]
+            },
+            {
+                "titleRecto": "SOFT-SKILLS",
+                "textRecto": "fa-solid fa-mug-hot",
+                "textVerso": ["Patience", "Curiosité", "Autonomie"]
+            }
+        ]
+    }
+]

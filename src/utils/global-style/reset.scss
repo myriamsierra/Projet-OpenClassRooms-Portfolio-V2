@@ -1,0 +1,40 @@
+//-------------------RESET STYLE-----------------------//
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+input,
+button, 
+textarea, 
+select {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+

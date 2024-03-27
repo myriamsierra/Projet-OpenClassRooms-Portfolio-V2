@@ -1,0 +1,27 @@
+//-------------------------------GLOBAL STYLE----------------------------------// 
+
+//TYPO =>
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sulphur+Point:wght@300;400;700&display=swap');
+
+$typoLogo: "Philosopher", sans-serif;
+$typoMain :"Dosis",sans-serif;
+$typoTitle: "Sulphur Point", sans-serif;
+$typoDetails :"Lobster Two", sans-serif;
+
+//COLOR LIGHT =>
+$colorLightFirst :#02a7b3;
+$colorLightSecond :rgb(116 204 204);
+$colorLightDetails:#b103b1;
+
+//COLOR NEUTRE =>
+$colorNeutral:rgba(128, 128, 128, 0.541);
+$colorTextLight :rgba(0, 46, 42, .541);
+$colorTextDark :#c9c9c9;
+$colorDark :rgba(0, 0, 0, 0.932);
+$colorLight :rgba(255, 255, 255, 0.842);
+
+
+//COLOR DARK =>
+$colorDarkFirst : #cf8e00;
+$colorDarkSecond :#f87102
+

@@ -1,0 +1,16 @@
+
+[
+    {
+        "title":"Contact",
+        "symbol1":"<",
+        "symbol":">",
+        "image":"https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/illustration/contact.webp",
+        "imput1":"Nom",
+        "imput2":"Email",
+        "imput3":"Votre message ici...",
+        "submit":"Envoyer",
+        "text":"Merci pour ta visite",
+        "icon":"fa-solid fa-heart"
+    }
+]
+
