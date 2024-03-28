@@ -1,0 +1,18 @@
+.home{
+    height: 800px;
+
+    &__float{
+        width: 40%;
+        height: 65%;
+        right: 7%;
+        border-radius: 110px;
+    }
+
+    &__box{
+        width: 80%;
+        height: 70%;
+        bottom: 0;
+        position: absolute;
+        z-index: 1;
+    }
+}

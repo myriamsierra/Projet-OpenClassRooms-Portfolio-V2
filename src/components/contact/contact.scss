@@ -1,0 +1,20 @@
+.contact{
+    height: 800px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+
+    &__float{
+        width: 60%;
+        height: 25%;
+        top:5%;
+        border-radius: 110px 110px 0px 0px;
+    }
+
+    &__box{
+        width: 60%;
+        height: 80%;
+        position: absolute;
+        bottom: 0px;
+    }
+}

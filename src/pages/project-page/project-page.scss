@@ -1,0 +1,23 @@
+@import './../../utils/global-style/reset.scss';
+@import './../../utils/global-style/global.scss';
+@import'./../../utils/global-style/base.scss';
+
+.project-page{
+    height: 1300px;
+    margin-bottom: 150px;
+
+    &__float{
+        width: 50%;
+        height: 60%;
+        right: 0%;
+        top:0 ;
+        border-radius: 110px;
+    }
+
+    &__box{
+        width: 90%;
+        height: 95%;  
+        position: absolute;
+        bottom: 0px;  
+    }
+}

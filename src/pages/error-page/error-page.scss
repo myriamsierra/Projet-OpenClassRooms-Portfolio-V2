@@ -1,0 +1,15 @@
+@import './../../utils/global-style/reset.scss';
+@import './../../utils/global-style/global.scss';
+@import'./../../utils/global-style/base.scss';
+
+.error-page{
+    height: 1000px;
+    margin-bottom: 150px;
+
+    &__box{
+        width: 90%;
+        height: 100%;  
+        position: absolute;
+        bottom: 0px;  
+    }
+}

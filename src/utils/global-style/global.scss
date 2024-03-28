@@ -1,0 +1,47 @@
+@import './base.scss';
+@import './../../utils/global-style/reset.scss';
+
+body{
+    font-family: $typoMain;
+    color:$colorTextLight;
+    background:$gradientLight;
+
+    main{
+        max-width: 1440px;
+        margin: 0px auto;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        color:$colorTextLight;
+
+        section{
+            margin-top: 200px;
+            width: 100%;
+            border:1px solid red;
+            position: relative;
+
+            .float{
+                background-color:$colorLightFirst;
+                box-shadow: $shadowsFloat;
+                position: absolute;
+                z-index: 2;
+            }
+
+            .contenair{
+                padding:25px;
+                border-radius: 30px;
+                box-shadow: $shadowsMain;
+                background-color: $colorLight;
+            }
+        } 
+    }
+}
+
+
+
+
+
+
+
+    
+        

@@ -1,0 +1,21 @@
+.project{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+
+    &__float{
+        width: 50%;
+        height: 30%;
+        left: 0%;
+        top:5% ;
+        border-radius: 110px;
+    }
+
+    &__box{
+        width: 90%;
+        height: 75%;  
+        position: absolute;
+        bottom: 0px;
+        
+    }
+}

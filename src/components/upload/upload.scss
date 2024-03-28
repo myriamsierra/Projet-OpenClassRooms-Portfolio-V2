@@ -1,0 +1,15 @@
+@import'./../../utils/global-style/base.scss';
+
+.upload{
+    height: 180px;
+
+    &__box{
+        width: 40%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        border-radius: 110px;
+        box-shadow: $shadowsFloat;
+        background-color: $colorLightFirst;
+    }  
+}

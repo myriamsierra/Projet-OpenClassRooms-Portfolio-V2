@@ -15,7 +15,7 @@ $colorLightDetails:#b103b1;
 
 //COLOR NEUTRE =>
 $colorNeutral:rgba(128, 128, 128, 0.541);
-$colorTextLight :rgba(0, 46, 42, .541);
+$colorTextLight :rgba(36, 36, 36, 0.541);
 $colorTextDark :#c9c9c9;
 $colorDark :rgba(0, 0, 0, 0.932);
 $colorLight :rgba(255, 255, 255, 0.842);
@@ -23,5 +23,13 @@ $colorLight :rgba(255, 255, 255, 0.842);
 
 //COLOR DARK =>
 $colorDarkFirst : #cf8e00;
-$colorDarkSecond :#f87102
+$colorDarkSecond :#f87102;
 
+// GRADIENT =>
+$gradientLight :radial-gradient(circle, rgba(255, 255, 255, 0.87) 0%,rgba(54, 54, 54, 0.123) 49%, rgba(95, 95, 95, 0.075) 75%, rgba(53, 53, 53, 0.089) 100%);
+
+
+// BOX SHADOWS =>
+$shadowsMain : rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+$shadowsFloat : rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+$shadowsBig : rgba(0, 0, 0, 0.418) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.411) 0px 0.125em 0.8em, rgba(255, 255, 255, 0.267) 0px 0px 0px 1px inset;

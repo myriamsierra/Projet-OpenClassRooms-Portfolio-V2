@@ -1,0 +1,15 @@
+@import './../../utils/global-style/reset.scss';
+@import './../../utils/global-style/global.scss';
+@import'./../../utils/global-style/base.scss';
+
+
+.footer{
+    width: 100%;
+    height: 70px;
+    padding: 15px 80px;
+    backdrop-filter: blur(20px);
+    background-color: rgba($colorLight, 0.5);
+    border-top: 2px solid $colorLightFirst;
+    border-radius: 90px 90px 0px 0px;
+    box-shadow: $shadowsBig;
+}

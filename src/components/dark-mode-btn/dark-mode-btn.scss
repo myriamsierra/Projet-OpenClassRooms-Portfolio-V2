@@ -1,0 +1,16 @@
+@import'./../../utils/global-style/base.scss';
+
+.dark-mode-btn{
+    height: 120px;
+    margin-bottom: -200px;
+
+    &__box{
+        width: 20%;
+        height: 100%;
+        position: absolute;
+        left : 0;
+        border-radius: 110px;
+        box-shadow: $shadowsFloat;
+        background-color: $colorLightFirst;
+    }  
+}
