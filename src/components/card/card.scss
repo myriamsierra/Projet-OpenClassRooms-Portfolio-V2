@@ -1,0 +1,109 @@
+@import './../../utils/global-style/reset.scss';
+@import './../../utils/global-style/global.scss';
+@import'./../../utils/global-style/base.scss';
+
+.card{
+    width: 20%;
+    height: 200px;
+    perspective: 900px;
+
+    @media (max-width: 850px) {
+        width: 30%   
+    }
+
+    @media (max-width: 550px) {
+        width: 250px;
+        height: 130px;
+    }
+
+    @media (max-width: 300px) {
+        width: 200px;
+    }
+    
+    .card:hover > &__box {
+        cursor: pointer;
+        transform: rotateY(180deg) rotateZ(180deg);
+    }
+
+    &__box {
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        position: relative;
+        transition: transform 2.3s;
+        transform-style: preserve-3d;
+        border-radius: 2rem;
+
+        .card-front{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            font-size: 1.7rem;
+
+            @media (max-width: 550px) {
+                font-size: 1.3rem;
+            }
+ 
+            .front-title{
+                color:$colorLightFirst;
+                font-weight: 500;
+                font-family: $typoTitle;
+                text-shadow: $shadowsTextLight;
+
+                &__darkmode{
+                    color:$colorDarkFirst;
+                }
+            }
+
+            & i{
+                font-size: 4rem; 
+                text-shadow: $shadowsTextLight;
+
+                @media (max-width: 550px) {
+                    font-size: 2.5rem;
+                }
+            }  
+        }
+
+        .card-front, .card-back {
+            height: 100%;
+            width: 100%;
+            border-radius: 40px;
+            position: absolute;
+            box-shadow: rgba(20, 16, 44, 0.11) 0px 48px 100px 0px;
+            backface-visibility: hidden;
+            color: rgba(104, 104, 104, 0.767);
+            background-color: transparent;
+
+            &__darkmode, &__darkmode{
+                color:$colorTextDark; 
+                background-color:rgba(63, 63, 63, 0.541);
+                box-shadow: rgba(20, 20, 20, 0.74) 0px 48px 100px 0px;
+            }
+        }
+       
+        .card-back {
+            transform: rotateY(180deg) rotateZ(180deg);
+            display: flex;
+            justify-content:center;
+            flex-direction: column;
+            align-items: center;
+            font-size: 1.3rem;
+            gap:8px;
+
+            @media (max-width: 550px) {
+                font-size: 1rem;
+            }
+            
+            .card-skill{
+                display: flex;
+                align-items: center; 
+                
+                .fa-check{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}

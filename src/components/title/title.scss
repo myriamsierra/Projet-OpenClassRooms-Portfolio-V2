@@ -1,0 +1,49 @@
+@import './../../utils/global-style/reset.scss';
+@import './../../utils/global-style/global.scss';
+@import'./../../utils/global-style/base.scss';
+
+.titleBox{
+    display: flex;
+    align-items: center;
+    font-size: 2.7rem;
+    font-family:$typoTitle;
+    text-align: center;
+    gap:20px;
+    color:$colorTextLight;
+    font-weight: 800;
+    text-shadow:$shadowsTextLight;
+
+    &__darkmode{
+        color:$colorTextDark;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 1.5rem;
+        gap:10px;
+    }
+    
+    @media (max-width: 300px) {
+        font-size: 1rem;
+        gap:5px;
+    }
+
+    .symbol {
+        font-size: 5rem;
+        font-weight: 300;
+        color:$colorLightSecond;
+        text-shadow:$shadowsTextBig;
+
+        &__darkmode{
+            color:$colorDarkSecond;
+        } 
+
+        @media (max-width: 500px) {
+            font-size: 3rem;
+            text-shadow:$shadowsText;
+        }
+
+        @media (max-width: 300px) {
+            font-size: 2rem;
+        }
+    }
+}

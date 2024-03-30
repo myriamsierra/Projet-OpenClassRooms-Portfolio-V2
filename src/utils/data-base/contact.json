@@ -3,14 +3,13 @@
     {
         "title":"Contact",
         "symbol1":"<",
-        "symbol":">",
+        "symbol2":">",
         "image":"https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/illustration/contact.webp",
-        "imput1":"Nom",
-        "imput2":"Email",
-        "imput3":"Votre message ici...",
-        "submit":"Envoyer",
-        "text":"Merci pour ta visite",
-        "icon":"fa-solid fa-heart"
+        "input1":"Nom",
+        "input2":"Email",
+        "input3":"Votre message ici...",
+        "submit":"envoyer",
+        "icon":"fa-regular fa-paper-plane"
     }
 ]
 

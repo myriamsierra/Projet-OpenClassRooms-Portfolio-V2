@@ -2,3 +2,19 @@
 @import './../../utils/global-style/global.scss';
 @import'./../../utils/global-style/base.scss';
 
+.endText{
+    font-size: 1.6rem;
+    text-align: center;
+    color: $colorLightFirst;
+    font-family: $typoDetails;
+
+    &__darkmode{
+        color:$colorDarkFirst;
+    }
+
+    @media (max-width: 850px) {
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+        
+    }
+}

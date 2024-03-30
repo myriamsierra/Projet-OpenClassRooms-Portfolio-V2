@@ -6,9 +6,13 @@
     height: 1000px;
     margin-bottom: 150px;
 
+    &__illustration{
+        width: 45%; 
+    }
+
     &__box{
-        width: 90%;
-        height: 100%;  
+        width: 100%;
+        height: 75%;  
         position: absolute;
         bottom: 0px;  
     }

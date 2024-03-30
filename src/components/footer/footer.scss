@@ -2,14 +2,99 @@
 @import './../../utils/global-style/global.scss';
 @import'./../../utils/global-style/base.scss';
 
-
 .footer{
     width: 100%;
-    height: 70px;
-    padding: 15px 80px;
-    backdrop-filter: blur(20px);
-    background-color: rgba($colorLight, 0.5);
-    border-top: 2px solid $colorLightFirst;
-    border-radius: 90px 90px 0px 0px;
-    box-shadow: $shadowsBig;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+
+    @media (max-width: 850px) {
+        margin-top: 0px;
+    }
+    
+    &__link{
+        width: 350px;
+        height: 6%;
+        background-color: $colorLightSecond;
+        border-radius: 200px 200px 0px 0px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        gap:20px;
+        padding: 20px ;
+        align-items: center;
+        justify-content: center;
+        border-top: 6px solid $colorLightFirst;
+        color: rgb(170, 10, 157);
+
+        &__darkmode{
+            background-color:$colorDarkSecond;
+            border-top: 6px solid $colorDarkFirst;
+            color:$colorDarkSecond;
+        }
+
+        @media (max-width: 500px) {
+            height: 80px;
+            width: 210px;
+        }
+
+        & i{
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: rgba(0, 0, 0, 0.671) 0px 3px 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 0.5s cubic-bezier(1, 1.8, 0.31, 1.84);  
+            font-size: 1.6rem;
+
+            @media (max-width: 500px) {
+                width: 40px;
+                height: 40px;
+                font-size: 1.2rem;
+            }
+
+            &:hover{
+                transform: translateY(-15px);
+                box-shadow: rgba(0, 0, 0, 0.685) 0px 15px 15px;  
+            }
+
+            &:active{
+                scale:(0.8)
+            }
+        }
+    }
+
+    &__box{
+        width: 100%;
+        height: 100px;
+        padding: 15px 80px;
+        backdrop-filter: blur(20px);
+        background-color: rgba($colorLight, 0.5);
+        border-top: 3px solid $colorLightFirst;
+        border-radius: 90px 90px 0px 0px;
+        box-shadow: $shadowsBig;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:$colorLightFirst;
+        font-size: 1.2rem;
+
+        &__darkmode{
+            color:$colorDarkFirst;
+            border-top: 3px solid $colorDarkFirst;
+            background-color: rgba($colorDark, 0.5);
+        }
+
+        @media (max-width: 500px) {
+            border-radius: 15px 15px 0px 0px;
+            height: 60px;
+            font-size: 0.8rem;
+            text-align: center;
+        }
+    }
 }

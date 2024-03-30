@@ -8,10 +8,107 @@
     height: 120px;
     position:fixed;
     z-index: 99;
+    display: flex;
+    justify-content: space-between;
     padding: 15px 80px;
     backdrop-filter: blur(20px);
     background-color: rgba($colorLight, 0.5);
     border-bottom: 2px solid $colorLightFirst;
     border-radius: 0px 0px 90px 90px;
     box-shadow: $shadowsBig;
+    color:$colorLightFirst;
+
+    &__darkmode{
+        background-color: rgba($colorDark, 0.6);
+        border-bottom: 2px solid $colorDarkFirst;
+        color:$colorDarkFirst;
+    }
+
+    @media (max-width: 680px) {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 20px;
+    }
+
+    &__logo{
+        font-family: $typoLogo;
+        font-size: 5rem;
+        font-weight: 700;
+        text-shadow: $shadowsText;
+
+        @media (max-width: 680px) {
+            font-size: 3rem;
+        }
+
+        &:hover{
+            text-shadow: $shadowsTextBig;
+            transform: translateX(15px); 
+            transition: transform 0.8s ease;
+        }
+    }
+
+    &__navbar{
+        width: fit-content;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        gap:50px;
+        font-family: $typoMain;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+
+        @media (max-width: 1000px) {
+            text-transform: initial;
+            font-size: 1rem;
+            gap:15px
+        }
+
+        @media (max-width: 500px) {
+            font-size: 0.7rem;
+            gap:7px;
+        }
+
+        .navlink {
+            padding-bottom: 8px;
+            position: relative;
+            transition-timing-function: cubic-bezier(0.85, 0.8, 0.85, 1);
+            transition-duration: 600ms; 
+
+            //ANIMATION SUR LE AFTER
+            &:focus,&:hover {
+                scale: (1.2);
+                transform: translateY(-8px); 
+                transition: transform 0.8s ease;
+                text-shadow: $shadowsText,               
+            }
+    
+            &:active {
+                scale: (0.9);
+            }
+    
+            &:focus:after,&:hover:after {
+                width: 100%;
+                left: 0%;
+            }
+    
+            &:after {
+                content: "";
+                bottom: 0px;
+                left: 50%;
+                position: absolute;
+                width: 0%;
+                height: 3px;
+                background-color: $colorLightSecond;
+                transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+                transition-duration: 900ms;
+            }
+        }
+
+        .navlink__darkmode{ 
+            &:after {
+                background-color:$colorDarkFirst;
+                height: 1px;
+            }
+        }
+    }
 }

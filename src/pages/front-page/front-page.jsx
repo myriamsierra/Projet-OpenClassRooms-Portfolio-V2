@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import { useTheme } from '../../utils/theme-provider/dark-mode';
 import './front-page.scss'
 import About from '../../components/about/about';
 import Home from '../../components/home/home';
@@ -9,6 +10,14 @@ import Upload from '../../components/upload/upload';
 import DarkModeBtn from '../../components/dark-mode-btn/dark-mode-btn';
 
 const FrontPage = () => {
+
+      //DARKMODE CONFIG ==>
+      const {darkMode} = useTheme();
+      const text = darkMode ? "endText endText__darkmode":"endText"
+      useEffect(() => {
+          document.body.classList.toggle('body-dark-mode', darkMode);
+      }, [darkMode]);
+      
     return (
         <main className='front-page'>
             <DarkModeBtn/>
@@ -18,6 +27,7 @@ const FrontPage = () => {
             <Upload/>
             <Project/>
             <Contact/>
+            <p className={text}>Merci pour ta visite <i className='fa-solid fa-heart'></i></p>
         </main>
     );
 };

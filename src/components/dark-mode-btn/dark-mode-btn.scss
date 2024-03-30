@@ -4,13 +4,127 @@
     height: 120px;
     margin-bottom: -200px;
 
+    @media (max-width: 1440px) {
+        margin-bottom: -100px;
+        margin-top: 180px;
+    }
+
+    @media (max-width: 850px) {
+        margin-top: 200px;
+        margin-bottom: -50px;
+    }
+    
     &__box{
-        width: 20%;
+        width: 245px;
         height: 100%;
         position: absolute;
         left : 0;
         border-radius: 110px;
         box-shadow: $shadowsFloat;
         background-color: $colorLightFirst;
-    }  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+        &__darkmode{
+            background-color:$colorDarkFirst;
+        }
+
+        @media (max-width: 1000px) {
+            width: 180px;
+            height: 80px;
+        }
+
+        .button{
+            position: relative;
+            display: flex;
+            width: fit-content;
+            height: fit-content;
+            color: $colorLight;
+
+            .input{
+                display: none;
+        
+              &:active {
+                transform: scale(0.85);
+                transition: transform 0.2s;
+              }
+            }
+
+            .label{
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                font-size: 2.6rem;
+                width: 150px;
+                height: 70px;
+                border-radius:100px;
+                background-color: rgba($colorDark, 0.6);
+                box-shadow:$shadowsInset;
+
+                @media (max-width: 1000px) {
+                    width: 120px;
+                    height: 50px;
+                    font-size: 1.8rem;
+                }
+
+                &__switch{
+                    width: 55px;
+                    height: 55px;
+                    border-radius: inherit;
+                    position: absolute;
+                    top: 6px;
+                    left: 7px;
+                    z-index: 3;
+                    transition: 0.5s cubic-bezier(1, 1.5, 0.11, 1.34);
+                    background-color:white;
+                    cursor: pointer;
+
+                    @media (max-width: 1000px) {
+                        width: 40px;
+                        height:40px;
+                        top:5px
+                    }
+                }
+
+                &__icons{
+                    height:fit-content;
+                    width:fit-content;
+                    margin: auto;
+                    display: flex;
+                }
+
+            }
+            
+            //ANIMATION SUR LA CHECKBOX
+            .input:checked +  .label {
+                background-color: $colorDarkSecond;
+                box-sizing:unset;
+                box-shadow:$shadowsInset;
+            }
+  
+            .input:checked + .label .label__switch {
+                left: 80px;
+                background-color: #f2f2f2;
+
+                @media (max-width: 1000px) {
+                    left:70px;
+                }
+            }
+    
+        }  
+    }
 }
+
+
+
+
+   
+
+     
+      
+    
+   
+
+  

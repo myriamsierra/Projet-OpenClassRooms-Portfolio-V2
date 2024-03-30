@@ -1,19 +1,21 @@
 [
     {
         "title": "A propos de moi",
-        "text": "J'ai toujours évoluer dans des environement artistique et je me suis reconvertis en 2023 dans le developpement web grace à la plateforme OpenClassRooms",
-        "text2":"Je suis une grande passionnée de cinéma, de musique et de jeux vidéo, ce sont mes plus grandes source d'inspiration.",
-        "text3":"Découvrez mes projets sur GitHub et n'hésitez pas à consulter mon profil LinkedIn pour en savoir plus sur mon parcours professionnel.",
+        "text":[
+            "J'ai toujours évoluer dans des environement artistique et je me suis reconvertis en 2023 dans le developpement web grace à la plateforme OpenClassRooms",
+            "Je suis une grande passionnée de cinéma, de musique et de jeux vidéo, ce sont mes plus grandes source d'inspiration.",
+            "Découvrez mes projets sur GitHub et n'hésitez pas à consulter mon profil LinkedIn pour en savoir plus sur mon parcours professionnel."
+        ],
         "symbol": "/",
         "image":"https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/illustration/book.webp",
         "links":[
             {
-                "text": "Mon Linkedin",
+                "text": "mon linkedin",
                 "icon": "fa-brands fa-linkedin",
                 "link": "https://www.linkedin.com/in/myriam-sierra-507436264/"
             },
             {
-                "text": "Mon Github",
+                "text": "mon github",
                 "icon": "fa-brands fa-github",
                 "link": "https://github.com/myriamsierra"
             }

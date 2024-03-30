@@ -14,17 +14,34 @@ body{
         flex-direction: column;
         color:$colorTextLight;
 
+        @media (max-width: 1440px) {
+            margin: 0px 20px 0px 20px;
+        }
+    
+
         section{
             margin-top: 200px;
             width: 100%;
-            border:1px solid red;
             position: relative;
+            border: 1px solid red;
+
+            @media (max-width: 1440px) {
+                margin-top:130px;
+            }
+
+            @media (max-width: 850px) {
+                margin-top: 80px;
+            }
 
             .float{
                 background-color:$colorLightFirst;
                 box-shadow: $shadowsFloat;
                 position: absolute;
                 z-index: 2;
+
+                &__darkmode{
+                    background-color:$colorDarkFirst;
+                }
             }
 
             .contenair{
@@ -32,11 +49,29 @@ body{
                 border-radius: 30px;
                 box-shadow: $shadowsMain;
                 background-color: $colorLight;
+
+                &__darkmode{
+                     background-color: rgba(59, 59, 59, 0.61);
+                     color: $colorTextDark;
+                }
+            }
+
+            .png {
+                position:absolute;
+                z-index: 3;
             }
         } 
     }
 }
 
+
+//-----------------------------------------DARKMODE THEME---------------------------------
+
+.body-dark-mode{
+    background-color: black;
+    background: $gradientDark;
+    color: $colorTextDark;
+}
 
 
 

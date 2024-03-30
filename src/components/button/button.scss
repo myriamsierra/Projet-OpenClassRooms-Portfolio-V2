@@ -1,0 +1,52 @@
+@import './../../utils/global-style/reset.scss';
+@import './../../utils/global-style/global.scss';
+@import'./../../utils/global-style/base.scss';
+
+.buttonLink{
+    width: fit-content;
+    font-size: 1.3rem;
+    color: $colorLightDetails;
+    font-weight: 500;
+    font-family: $typoDetails;
+    border-radius: 25px;
+    padding: 15px 25px;
+    background-color:rgba($colorNeutral, 0.1);
+    box-shadow: $shadowsMain;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.85, 0.1, 1.5, 1);
+    transition-duration: 1.5s; 
+    cursor: pointer;
+
+    @media (max-width: 500px) {
+        font-size: 1rem;
+    }
+
+
+    &__darkmode{
+        color:$colorDarkFirst;
+        box-shadow: $shadowsTextBig;
+    }
+
+    &:focus,
+    &:hover {
+        scale: (1.1);
+        transform: translateY(-20px); 
+        transition: transform 0.8s ease; 
+        background-color: rgba(43, 43, 43, 0.089);         
+    }
+    
+    &__button:active {
+        scale :(0.8);
+        background-color: rgba(43, 43, 43, 0.089); 
+    }
+
+    & i {
+        font-size: 1.6rem;
+    }
+}
+
+.buttonLink *{
+    display:flex;
+    gap:15px; 
+    align-items: center;
+}
