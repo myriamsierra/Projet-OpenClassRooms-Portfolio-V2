@@ -16,12 +16,11 @@ const RouterConfig = () => (
     <Header/>
     <Routes>
       <Route path="/" element={<FrontPage/>}/>
-      {/* <Route path="/Projet/:id" element={<ProjectPage />} />  */}
+      <Route path="/Projet/:id" element={<ProjectPage />} /> 
       <Route path="/ProjetPage" element={<ProjectPage />} />
       <Route path="*" element={<ErrorPage/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/skills" component={Skills} />
-      <Route path="/projects" component={Project} />
       <Route path="/contact" component={Contact} />
     </Routes>
     <Footer/>

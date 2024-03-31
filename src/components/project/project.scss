@@ -3,7 +3,7 @@
 @import'./../../utils/global-style/base.scss';
 
 .project{
-    height: 1800px;
+    height: 2200px;
     display: flex;
     justify-content: center;
 
@@ -19,7 +19,7 @@
 
     &__float{
         width: 60%;
-        height: 20%;
+        height: 15%;
         left: 0%;
         top:5% ;
         border-radius: 110px;
@@ -59,9 +59,8 @@
         .project__content{
             width: 80%;
             height: 1200px;  
-            margin-top: 170px;
+            margin-top: 150px;
             z-index: 3;
-            border:1px solid red;
 
             @media (max-width: 850px) {
                 width: 99%;
@@ -82,14 +81,43 @@
 
             .border{
                 height: 1px;
-                width: 90%;
+                width: 100%;
                 margin-top: 20px;
                 background-color: $colorLightSecond;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 
                 &__darkmode{
                     background-color: $colorDarkSecond;
                 }
            } 
+
+           .project-filter{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: rgba(180, 180, 180, 0.048);
+                
+
+                .filterbar{
+                    width: 80%;
+                    display: flex;
+                    margin: 60px auto 0px auto ;
+                    justify-content: space-between;
+
+                    @media (max-width: 600px) {
+                        flex-direction: column;
+                        margin: 20px auto 0px auto;
+                        align-items: center;
+                    }
+                }
+            }
+
+            .project-block{
+                display: flex;
+                flex-direction: column;
+                gap:30px;
+                margin-top: 50px;
+            }
         }
     }
 }

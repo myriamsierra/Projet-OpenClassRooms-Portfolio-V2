@@ -1,0 +1,201 @@
+@import './../../utils/global-style/reset.scss';
+@import './../../utils/global-style/global.scss';
+@import'./../../utils/global-style/base.scss';
+
+.block{
+    width: 90%;
+    margin: auto;
+    height: 210px;
+    display: flex;
+    overflow: hidden;
+    transition: all 0.2s;
+    background-color: $colorLight;
+    box-shadow:$shadowsMain;
+    border-radius: 140px;
+    position: relative;
+    cursor: pointer;
+
+    &__darkmode{
+        background-color: rgba(78, 78, 78, 0.575);
+        box-shadow:$shadowsText;
+    }
+
+    @media (max-width: 1250px) {
+        width:100%;
+    }
+
+    @media (max-width: 500px) {
+        height: 250px;
+    }
+
+    &:hover {
+        box-shadow: 0px 0px 20px -5px #00000048;
+        transform: translateX(-60px); 
+    } 
+
+    &:hover .overlay {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    &:hover .overlay-btn {
+        opacity: 1;
+        scale: 1;
+    }
+
+    &:active{
+        transform: translateX(80px);
+        }
+
+
+    .block-number{
+        width: 15%;
+        font-size: 3rem;
+        color:white;
+        background-color: $colorLightSecond;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: italic;
+
+        &__darkmode{
+            background-color: $colorDarkFirst;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 2rem;
+            width: 20%;
+        }
+
+        @media (max-width: 340px) {
+            font-size: 1rem;
+        }
+    }
+
+    .block-text{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin:  35px 15px;
+        gap:25px;
+
+        @media (max-width: 370px) {
+            gap:15px;
+            margin: 25px 10px;
+        }
+        
+        .block-title{
+            display: flex;
+            gap:20px;
+            align-items: center;
+            
+            @media (max-width: 370px) {
+                flex-direction: column;
+                gap:5px
+            }
+
+            .title-project{
+                font-weight: 500;
+                font-size: 1.6rem;
+
+                @media (max-width: 700px) {
+                    font-size: 1.1rem;
+                }
+            }
+
+            .subtitle-project{
+                font-style: italic;
+                color:$colorLightSecond;
+                font-size: 1.1rem;
+
+                &__darkmode{
+                    color: $colorDarkSecond;
+                }
+
+                @media (max-width: 700px) {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+
+        .block-description{
+            font-size: 1.2rem;
+
+            @media (max-width: 1100px) {
+                font-size: 1rem;
+            }
+
+            @media (max-width: 340px) {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .block-image{
+        width: 195px;
+        height: 193px;
+        overflow: hidden;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.034) 0px 4px 12px;
+        border: 1px solid $colorLightFirst;
+        object-fit: cover;
+        margin: 10px;
+
+        &__darkmode{
+            border: 2px solid $colorDarkSecond;
+        }
+
+        @media (max-width: 600px) {
+            width: 150px;
+            height: 150px;
+            margin: 20px;
+        }
+
+        @media (max-width: 500px) {
+            display: none;
+        }
+
+
+        img{
+            width: 195px;
+            height: 195px;
+            object-fit: cover;
+        }
+    }
+
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        background-color: $colorLightSecond;
+        transition: opacity 1.1s ease;
+
+        &__darkmode{
+            background-color: $colorDarkSecond;
+        }
+    }
+    
+    .overlay-btn{  
+        position: absolute;
+        top: 50%;
+        right: 1.5%;
+        font-family: $typoDetails;
+        font-size: 1.5rem;
+        border-radius: 50px;
+        padding: 15px 20px;
+        transform: translate(-50%, -50%);
+        color:rgb(132, 1, 172);  
+        z-index: 10;
+        opacity: 0;
+        box-shadow: $shadowsText;
+        transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+        background-color: white;
+
+        &__darkmode{
+            color:$colorDarkFirst;
+        }
+    }
+}

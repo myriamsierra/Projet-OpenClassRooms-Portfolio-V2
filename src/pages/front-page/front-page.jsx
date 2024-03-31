@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import { useTheme } from '../../utils/theme-provider/dark-mode';
 import './front-page.scss'
 import About from '../../components/about/about';
@@ -8,15 +8,14 @@ import Project from '../../components/project/project';
 import Contact from '../../components/contact/contact';
 import Upload from '../../components/upload/upload';
 import DarkModeBtn from '../../components/dark-mode-btn/dark-mode-btn';
+import {DarkMode} from '../../utils/fonction/fonction';
 
 const FrontPage = () => {
 
-      //DARKMODE CONFIG ==>
-      const {darkMode} = useTheme();
-      const text = darkMode ? "endText endText__darkmode":"endText"
-      useEffect(() => {
-          document.body.classList.toggle('body-dark-mode', darkMode);
-      }, [darkMode]);
+    //DARKMODE CONFIG ==>
+    const {darkMode} = useTheme();
+    const text = darkMode ? "endText endText__darkmode":"endText"
+    DarkMode(darkMode);
       
     return (
         <main className='front-page'>

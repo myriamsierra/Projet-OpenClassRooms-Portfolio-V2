@@ -6,7 +6,7 @@
         "subtitle": "/ Projet OpenClassRooms",
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
         "description": "Pour cloturer ma formation, j'ai due réaliser mon propre portfolio pour me presenter et presenter mes projets.J'ai eue une entière liberté pour le choix du design, des technologies et langages.",
-        "image": "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/portfolio/portfolio-01.webp",
+        "image":"https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/portfolio/portfolio-05.webp",
         "tag": ["Tous", "React"],
         "text":[
             "Dans le cadre de ma formation en développement web, j'ai entrepris la création et la publication en ligne de mon propre portfolio.",
@@ -39,7 +39,7 @@
         "subtitle": "/ Projet OpenClassRooms",
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
         "description": "La mission de ce projet à été d'intégrer la maquette d'un site de location immobilière.J'ai donc due faire mes premier pas avec REACT ET SASS pour concevoir le front-end du site",
-        "image": "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/kasa/kasa-02.webp",
+        "image": "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/kasa/kasa-04.webp",
         "tag": ["Tous", "React"],
         "text":[
             "L'agence de location immobilière KASA nous à mandater pour réaliser le front-end de son site",
@@ -107,7 +107,7 @@
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
         "description": "Ce projet est le premier projet de ma formation.J'ai été mandatée par une agence de voyage pour integrer la maquette de leur site.Pour ce faire je dois utiliser les langages HTML et CSS",
         "image": "https://raw.githubusercontent.com/myriamsierra/Database-Pour-Portfolio/main/screen/booki/booki-01.webp",
-        "tag": ["Tous", "Landing page"],
+        "tag": ["Tous", "Landing Page"],
         "text":[
             "Pour ce projet, j'ai due faire mes premier pas dans le monde du devellopement web",
             "Tout d'abord apprendre à decouper une maquette, installer un editeur de code, et commencer mes premieres ligne de code en utilisant HTML et CSS",
