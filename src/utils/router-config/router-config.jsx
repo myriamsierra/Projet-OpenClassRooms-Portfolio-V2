@@ -6,7 +6,6 @@ import FrontPage from './../../pages/front-page/front-page';
 import ErrorPage from './../../pages/error-page/error-page';
 import About from './../../components/about/about';
 import Skills from './../../components/skills/skills';
-import Project from './../../components/project/project';
 import Contact from './../../components/contact/contact';
 import ProjectPage from './../../pages/project-page/project-page';
 

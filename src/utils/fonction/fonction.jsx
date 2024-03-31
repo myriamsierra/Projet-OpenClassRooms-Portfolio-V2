@@ -1,9 +1,6 @@
     //-------------------FUNCTION---------------------------------
     import { useState } from 'react';
     import { useEffect } from 'react';
-    import DataProject from './../data-base/project.json'
-
-// Fonctions getNextProjectId et getPreviousProjectId ici
 
 
     //SET-UNSET DARKMODE==>
