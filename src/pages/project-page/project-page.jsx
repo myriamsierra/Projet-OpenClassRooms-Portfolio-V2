@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTheme } from '../../utils/theme-provider/dark-mode';
 import { useParams, Link } from 'react-router-dom';
 import './project-page.scss';
@@ -8,6 +8,11 @@ import Button from './../../components/button/button';
 import Carousel from '../../components/carousel/carousel';
 
 const ProjectPage = () => {
+
+    //pointe le haut de la page
+    useEffect(() => {
+        window.scrollTo(0, 0); 
+      }, []);
 
     //DARKMODE THEME ==>
     const { darkMode } = useTheme();
